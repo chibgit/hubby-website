@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <nav> 
+    <div class="flex flex-row flex-wrap">
+      <div class="flex w-full sm:w-1/4 justify-center">
+        <h2 class="text-3x1">
+        <a href="index.html">Home</a>
+      </h2></div>
+      <div class="flex w-full sm:w-1/4 justify-center">
+        <h2 class="text-3x1">
+        <a href="about.html">About</a>
+      </h2></div>
+       <div class="flex w-full sm:w-1/4 justify-center">
+        <h2 class="text-3x1">
+        <a href="hobby.html">Hobby</a></h2>
+      </div>
+     
+      <div class="flex w-full sm:w-1/4 justify-center">
+        <h2 class="text-3x1">
+        <a href="contact.html">Contact</a></h2>
+      </h2>
+      </div>
+    </div>
+ </nav>
+         
+        <div class="contact-container">
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+          <div class="contact-left-title">
+              <h2>Get in touch</h2>
+              <hr>
+              </div>
+              
+            <input type="hidden" name="access_key" value="a1b5dec2-e908-4559-8177-a8d0fe3ba41f">
+              <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+              <input type="email" name="emaile" placeholder="Your Email" class="contact-inputs" required>
+              <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+              <button type="submit">Submit <img src="arrow_icon.png" alt="button"></button>
+        </form>
+        <div class="contact-right">
+          <img src="right_img.png" alt="background image">
+
+      
+  </div>
+  
+   
+ </div>
+ <div class="flex flex-row flex-wrap">
+  <footer class="w-full">
+    Copyright Reserved 2024 | My Hobby Website
+  </footer>
+</div>
+</body>
+</html>
